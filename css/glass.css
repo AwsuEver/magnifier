@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  margin: 100px auto;
+  width: 800px;
+  background: red;
+}
+.content #div1 {
+  position: relative;
+  border: 1px solid gray;
+  float: left;
+}
+.content #div1 .box {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  width: 150px;
+  height: 100px;
+  background: #B9E4FB;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+.content #div1 img {
+  margin: 15px 15px;
+}
+.content #div2 {
+  position: absolute;
+  z-index: 1;
+  display: none;
+  left: 600px;
+  width: 275px;
+  height: 160px;
+  overflow: hidden;
+  border: 1px solid gray;
+  float: left;
+}
+.content #div2 img {
+  position: absolute;
+  z-index: 3;
+}
